@@ -1,0 +1,42 @@
+html{
+	font-size: 12px;
+}
+
+body{
+	margin:0 auto
+}
+
+h1{
+	font-size: 3rem
+}
+
+h2{
+	font-size:2rem;
+}
+
+h3{
+	font-size: 1rem
+}
+
+.logo{
+	margin:0 auto;
+	width:80%;
+	margin-top: 250px;
+}
+
+img{
+	width:100%;
+}
+
+@media only screen and (min-width: 413px){
+.logo{
+	margin-top: 300px;
+}
+
+}
+
+@media only screen and (min-width: 768px){
+.logo{
+	margin-top: 400px;
+}
+}
