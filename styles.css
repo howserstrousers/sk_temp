@@ -17,7 +17,7 @@ h2{
 h3{
 	font-size: 1rem
 }
-
+/*
 .logo{
 	margin:0 auto;
 	width:80%;
@@ -27,29 +27,22 @@ h3{
 img{
 	width:100%;
 }
+*/
 
-@media only screen and (min-width: 413px){
-.logo{
-	margin-top: 300px;
-}
-
-}
-
-@media only screen and (min-width: 768px){
-.logo{
-	margin-top: 400px;
-}
-}
-
-@media only screen and (min-width: 1024px){
-.logo{
-	margin-top: 380px;
-}
+img{
+  bottom: 0;
+  height: auto;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40%;
 }
 
-@media only screen and (min-width: 1200px){
-.logo{
-	width:60%;
-	margin-top: 400px;
+@media only screen and (min-width: 375px){
+img{
+	width: 60%;
 }
+
 }
